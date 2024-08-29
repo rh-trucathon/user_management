@@ -4,7 +4,7 @@ const { parse } = require("csv-parse");
 var gitlab = require ("./gitlab")
 
 var gitlabObj = new gitlab()
-
+async = require('async')
 
 
 function CSVReader() {
@@ -21,17 +21,40 @@ fs.createReadStream("./userFiles/"+filename)
 
     var userName = row[0]
     var password = row[1]
+    var groupList = [12,14,7,10]
+   
     console.log("username ",userName)
     console.log("password ",password)
     gitlabObj.addUser(userName,password,function(data,err){
 
         if (err){
-            console.error("Error Gitlab ",err)
+            //console.error("Error Gitlab ",err)
+            console.log("error ",userName)
             return
         }
-        console.log("Gitlab ok ",data)
+        console.log("Gitlab User ok ",data)
+        console.log("Gitlab User  ",data.data["id"])
+        var userId = data.data["id"]
 
-        return
+        async.each(groupList, function (groupId,callbackEach) {
+            console.log("group to add ", groupId)
+            
+            gitlabObj.addUserToGroup(userId,groupId,function(){
+                console.log("User Added to group OK -- ",groupId)
+                callbackEach()
+            })
+              
+          }
+           ,function (res,err) {
+             console.log('All done each');
+             
+             return
+           }
+          
+      )
+      return
+
+      
     })
 
 

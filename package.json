@@ -10,6 +10,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "async": "^3.2.6",
     "axios": "^1.7.5",
     "cors": "^2.8.5",
     "csv-parse": "^5.5.6",

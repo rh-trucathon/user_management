@@ -30,7 +30,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json())
 
-csvReaderObj.readCSVFile("superheroes.csv")
+csvReaderObj.readCSVFile(process.env.CSV_FILE_NAME)
 
 
 
