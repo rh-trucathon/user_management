@@ -21,7 +21,7 @@ spec:
   profile:
     email: wolverine@opentlc.com
     picture: https://avatars.dicebear.com/api/avataaars/breanna-davison@example.com.svg?background=%23fff
-    memberOf: [wolverine]
+  memberOf: [wolverine]
 
 ---
 apiVersion: backstage.io/v1alpha1
@@ -46,7 +46,7 @@ spec:
   profile:
     email: blackpanther@opentlc.com
     picture: https://avatars.dicebear.com/api/avataaars/breanna-davison@example.com.svg?background=%23fff
-    memberOf: [blackpanther]
+  memberOf: [blackpanther]
 
 ---
 apiVersion: backstage.io/v1alpha1
@@ -71,7 +71,7 @@ spec:
   profile:
     email: daredevil@opentlc.com
     picture: https://avatars.dicebear.com/api/avataaars/breanna-davison@example.com.svg?background=%23fff
-    memberOf: [daredevil]
+  memberOf: [daredevil]
 
 ---
 apiVersion: backstage.io/v1alpha1
@@ -96,7 +96,7 @@ spec:
   profile:
     email: lukecage@opentlc.com
     picture: https://avatars.dicebear.com/api/avataaars/breanna-davison@example.com.svg?background=%23fff
-    memberOf: [lukecage]
+  memberOf: [lukecage]
 
 ---
 apiVersion: backstage.io/v1alpha1
@@ -121,7 +121,7 @@ spec:
   profile:
     email: jessicajones@opentlc.com
     picture: https://avatars.dicebear.com/api/avataaars/breanna-davison@example.com.svg?background=%23fff
-    memberOf: [jessicajones]
+  memberOf: [jessicajones]
 
 ---
 apiVersion: backstage.io/v1alpha1
@@ -146,7 +146,7 @@ spec:
   profile:
     email: ironfist@opentlc.com
     picture: https://avatars.dicebear.com/api/avataaars/breanna-davison@example.com.svg?background=%23fff
-    memberOf: [ironfist]
+  memberOf: [ironfist]
 
 ---
 apiVersion: backstage.io/v1alpha1
@@ -171,7 +171,7 @@ spec:
   profile:
     email: antman@opentlc.com
     picture: https://avatars.dicebear.com/api/avataaars/breanna-davison@example.com.svg?background=%23fff
-    memberOf: [antman]
+  memberOf: [antman]
 
 ---
 apiVersion: backstage.io/v1alpha1
@@ -196,7 +196,7 @@ spec:
   profile:
     email: wasp@opentlc.com
     picture: https://avatars.dicebear.com/api/avataaars/breanna-davison@example.com.svg?background=%23fff
-    memberOf: [wasp]
+  memberOf: [wasp]
 
 ---
 apiVersion: backstage.io/v1alpha1
@@ -221,7 +221,7 @@ spec:
   profile:
     email: starlord@opentlc.com
     picture: https://avatars.dicebear.com/api/avataaars/breanna-davison@example.com.svg?background=%23fff
-    memberOf: [starlord]
+  memberOf: [starlord]
 
 ---
 apiVersion: backstage.io/v1alpha1
@@ -246,7 +246,7 @@ spec:
   profile:
     email: gamora@opentlc.com
     picture: https://avatars.dicebear.com/api/avataaars/breanna-davison@example.com.svg?background=%23fff
-    memberOf: [gamora]
+  memberOf: [gamora]
 
 ---
 apiVersion: backstage.io/v1alpha1
@@ -271,7 +271,7 @@ spec:
   profile:
     email: rocketraccoon@opentlc.com
     picture: https://avatars.dicebear.com/api/avataaars/breanna-davison@example.com.svg?background=%23fff
-    memberOf: [rocketraccoon]
+  memberOf: [rocketraccoon]
 
 ---
 apiVersion: backstage.io/v1alpha1
@@ -296,7 +296,7 @@ spec:
   profile:
     email: groot@opentlc.com
     picture: https://avatars.dicebear.com/api/avataaars/breanna-davison@example.com.svg?background=%23fff
-    memberOf: [groot]
+  memberOf: [groot]
 
 ---
 apiVersion: backstage.io/v1alpha1
@@ -321,7 +321,7 @@ spec:
   profile:
     email: drax@opentlc.com
     picture: https://avatars.dicebear.com/api/avataaars/breanna-davison@example.com.svg?background=%23fff
-    memberOf: [drax]
+  memberOf: [drax]
 
 ---
 apiVersion: backstage.io/v1alpha1
@@ -346,7 +346,7 @@ spec:
   profile:
     email: scarletwitch@opentlc.com
     picture: https://avatars.dicebear.com/api/avataaars/breanna-davison@example.com.svg?background=%23fff
-    memberOf: [scarletwitch]
+  memberOf: [scarletwitch]
 
 ---
 apiVersion: backstage.io/v1alpha1
@@ -371,5 +371,5 @@ spec:
   profile:
     email: vision@opentlc.com
     picture: https://avatars.dicebear.com/api/avataaars/breanna-davison@example.com.svg?background=%23fff
-    memberOf: [vision]
+  memberOf: [vision]
 
