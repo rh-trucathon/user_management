@@ -2,164 +2,164 @@
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-    name: wolverine
+  name: wolverine
 spec:
-    profile:
+  profile:
     email: wolverine@opentlc.com
     picture: https://avatars.dicebear.com/api/avataaars/breanna-davison@example.com.svg?background=%23fff
-    memberOf: [ ]
+    memberOf: []
 
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-    name: blackpanther
+  name: blackpanther
 spec:
-    profile:
+  profile:
     email: blackpanther@opentlc.com
     picture: https://avatars.dicebear.com/api/avataaars/breanna-davison@example.com.svg?background=%23fff
-    memberOf: [ ]
+    memberOf: []
 
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-    name: daredevil
+  name: daredevil
 spec:
-    profile:
+  profile:
     email: daredevil@opentlc.com
     picture: https://avatars.dicebear.com/api/avataaars/breanna-davison@example.com.svg?background=%23fff
-    memberOf: [ ]
+    memberOf: []
 
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-    name: lukecage
+  name: lukecage
 spec:
-    profile:
+  profile:
     email: lukecage@opentlc.com
     picture: https://avatars.dicebear.com/api/avataaars/breanna-davison@example.com.svg?background=%23fff
-    memberOf: [ ]
+    memberOf: []
 
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-    name: jessicajones
+  name: jessicajones
 spec:
-    profile:
+  profile:
     email: jessicajones@opentlc.com
     picture: https://avatars.dicebear.com/api/avataaars/breanna-davison@example.com.svg?background=%23fff
-    memberOf: [ ]
+    memberOf: []
 
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-    name: ironfist
+  name: ironfist
 spec:
-    profile:
+  profile:
     email: ironfist@opentlc.com
     picture: https://avatars.dicebear.com/api/avataaars/breanna-davison@example.com.svg?background=%23fff
-    memberOf: [ ]
+    memberOf: []
 
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-    name: antman
+  name: antman
 spec:
-    profile:
+  profile:
     email: antman@opentlc.com
     picture: https://avatars.dicebear.com/api/avataaars/breanna-davison@example.com.svg?background=%23fff
-    memberOf: [ ]
+    memberOf: []
 
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-    name: wasp
+  name: wasp
 spec:
-    profile:
+  profile:
     email: wasp@opentlc.com
     picture: https://avatars.dicebear.com/api/avataaars/breanna-davison@example.com.svg?background=%23fff
-    memberOf: [ ]
+    memberOf: []
 
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-    name: starlord
+  name: starlord
 spec:
-    profile:
+  profile:
     email: starlord@opentlc.com
     picture: https://avatars.dicebear.com/api/avataaars/breanna-davison@example.com.svg?background=%23fff
-    memberOf: [ ]
+    memberOf: []
 
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-    name: gamora
+  name: gamora
 spec:
-    profile:
+  profile:
     email: gamora@opentlc.com
     picture: https://avatars.dicebear.com/api/avataaars/breanna-davison@example.com.svg?background=%23fff
-    memberOf: [ ]
+    memberOf: []
 
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-    name: rocketraccoon
+  name: rocketraccoon
 spec:
-    profile:
+  profile:
     email: rocketraccoon@opentlc.com
     picture: https://avatars.dicebear.com/api/avataaars/breanna-davison@example.com.svg?background=%23fff
-    memberOf: [ ]
+    memberOf: []
 
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-    name: groot
+  name: groot
 spec:
-    profile:
+  profile:
     email: groot@opentlc.com
     picture: https://avatars.dicebear.com/api/avataaars/breanna-davison@example.com.svg?background=%23fff
-    memberOf: [ ]
+    memberOf: []
 
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-    name: drax
+  name: drax
 spec:
-    profile:
+  profile:
     email: drax@opentlc.com
     picture: https://avatars.dicebear.com/api/avataaars/breanna-davison@example.com.svg?background=%23fff
-    memberOf: [ ]
+    memberOf: []
 
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-    name: scarletwitch
+  name: scarletwitch
 spec:
-    profile:
+  profile:
     email: scarletwitch@opentlc.com
     picture: https://avatars.dicebear.com/api/avataaars/breanna-davison@example.com.svg?background=%23fff
-    memberOf: [ ]
+    memberOf: []
 
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-    name: vision
+  name: vision
 spec:
-    profile:
+  profile:
     email: vision@opentlc.com
     picture: https://avatars.dicebear.com/api/avataaars/breanna-davison@example.com.svg?background=%23fff
-    memberOf: [ ]
+    memberOf: []
 
