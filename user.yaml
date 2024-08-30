@@ -1,5 +1,19 @@
 ---
 apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: wolverine
+  description: wolverine group
+spec:
+  type: team
+  profile:
+    # Intentional no displayName for testing
+    email: wolverine@opentlc.com
+    picture: https://avatars.dicebear.com/api/identicon/team-a@example.com.svg?background=%23fff&margin=25
+  parent: rhdh
+  children: []
+---
+apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
   name: wolverine
@@ -7,8 +21,22 @@ spec:
   profile:
     email: wolverine@opentlc.com
     picture: https://avatars.dicebear.com/api/avataaars/breanna-davison@example.com.svg?background=%23fff
-    memberOf: []
+    memberOf: [wolverine]
 
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: blackpanther
+  description: blackpanther group
+spec:
+  type: team
+  profile:
+    # Intentional no displayName for testing
+    email: blackpanther@opentlc.com
+    picture: https://avatars.dicebear.com/api/identicon/team-a@example.com.svg?background=%23fff&margin=25
+  parent: rhdh
+  children: []
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
@@ -18,8 +46,22 @@ spec:
   profile:
     email: blackpanther@opentlc.com
     picture: https://avatars.dicebear.com/api/avataaars/breanna-davison@example.com.svg?background=%23fff
-    memberOf: []
+    memberOf: [blackpanther]
 
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: daredevil
+  description: daredevil group
+spec:
+  type: team
+  profile:
+    # Intentional no displayName for testing
+    email: daredevil@opentlc.com
+    picture: https://avatars.dicebear.com/api/identicon/team-a@example.com.svg?background=%23fff&margin=25
+  parent: rhdh
+  children: []
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
@@ -29,8 +71,22 @@ spec:
   profile:
     email: daredevil@opentlc.com
     picture: https://avatars.dicebear.com/api/avataaars/breanna-davison@example.com.svg?background=%23fff
-    memberOf: []
+    memberOf: [daredevil]
 
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: lukecage
+  description: lukecage group
+spec:
+  type: team
+  profile:
+    # Intentional no displayName for testing
+    email: lukecage@opentlc.com
+    picture: https://avatars.dicebear.com/api/identicon/team-a@example.com.svg?background=%23fff&margin=25
+  parent: rhdh
+  children: []
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
@@ -40,8 +96,22 @@ spec:
   profile:
     email: lukecage@opentlc.com
     picture: https://avatars.dicebear.com/api/avataaars/breanna-davison@example.com.svg?background=%23fff
-    memberOf: []
+    memberOf: [lukecage]
 
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: jessicajones
+  description: jessicajones group
+spec:
+  type: team
+  profile:
+    # Intentional no displayName for testing
+    email: jessicajones@opentlc.com
+    picture: https://avatars.dicebear.com/api/identicon/team-a@example.com.svg?background=%23fff&margin=25
+  parent: rhdh
+  children: []
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
@@ -51,8 +121,22 @@ spec:
   profile:
     email: jessicajones@opentlc.com
     picture: https://avatars.dicebear.com/api/avataaars/breanna-davison@example.com.svg?background=%23fff
-    memberOf: []
+    memberOf: [jessicajones]
 
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: ironfist
+  description: ironfist group
+spec:
+  type: team
+  profile:
+    # Intentional no displayName for testing
+    email: ironfist@opentlc.com
+    picture: https://avatars.dicebear.com/api/identicon/team-a@example.com.svg?background=%23fff&margin=25
+  parent: rhdh
+  children: []
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
@@ -62,8 +146,22 @@ spec:
   profile:
     email: ironfist@opentlc.com
     picture: https://avatars.dicebear.com/api/avataaars/breanna-davison@example.com.svg?background=%23fff
-    memberOf: []
+    memberOf: [ironfist]
 
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: antman
+  description: antman group
+spec:
+  type: team
+  profile:
+    # Intentional no displayName for testing
+    email: antman@opentlc.com
+    picture: https://avatars.dicebear.com/api/identicon/team-a@example.com.svg?background=%23fff&margin=25
+  parent: rhdh
+  children: []
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
@@ -73,8 +171,22 @@ spec:
   profile:
     email: antman@opentlc.com
     picture: https://avatars.dicebear.com/api/avataaars/breanna-davison@example.com.svg?background=%23fff
-    memberOf: []
+    memberOf: [antman]
 
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: wasp
+  description: wasp group
+spec:
+  type: team
+  profile:
+    # Intentional no displayName for testing
+    email: wasp@opentlc.com
+    picture: https://avatars.dicebear.com/api/identicon/team-a@example.com.svg?background=%23fff&margin=25
+  parent: rhdh
+  children: []
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
@@ -84,8 +196,22 @@ spec:
   profile:
     email: wasp@opentlc.com
     picture: https://avatars.dicebear.com/api/avataaars/breanna-davison@example.com.svg?background=%23fff
-    memberOf: []
+    memberOf: [wasp]
 
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: starlord
+  description: starlord group
+spec:
+  type: team
+  profile:
+    # Intentional no displayName for testing
+    email: starlord@opentlc.com
+    picture: https://avatars.dicebear.com/api/identicon/team-a@example.com.svg?background=%23fff&margin=25
+  parent: rhdh
+  children: []
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
@@ -95,8 +221,22 @@ spec:
   profile:
     email: starlord@opentlc.com
     picture: https://avatars.dicebear.com/api/avataaars/breanna-davison@example.com.svg?background=%23fff
-    memberOf: []
+    memberOf: [starlord]
 
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: gamora
+  description: gamora group
+spec:
+  type: team
+  profile:
+    # Intentional no displayName for testing
+    email: gamora@opentlc.com
+    picture: https://avatars.dicebear.com/api/identicon/team-a@example.com.svg?background=%23fff&margin=25
+  parent: rhdh
+  children: []
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
@@ -106,8 +246,22 @@ spec:
   profile:
     email: gamora@opentlc.com
     picture: https://avatars.dicebear.com/api/avataaars/breanna-davison@example.com.svg?background=%23fff
-    memberOf: []
+    memberOf: [gamora]
 
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: rocketraccoon
+  description: rocketraccoon group
+spec:
+  type: team
+  profile:
+    # Intentional no displayName for testing
+    email: rocketraccoon@opentlc.com
+    picture: https://avatars.dicebear.com/api/identicon/team-a@example.com.svg?background=%23fff&margin=25
+  parent: rhdh
+  children: []
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
@@ -117,8 +271,22 @@ spec:
   profile:
     email: rocketraccoon@opentlc.com
     picture: https://avatars.dicebear.com/api/avataaars/breanna-davison@example.com.svg?background=%23fff
-    memberOf: []
+    memberOf: [rocketraccoon]
 
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: groot
+  description: groot group
+spec:
+  type: team
+  profile:
+    # Intentional no displayName for testing
+    email: groot@opentlc.com
+    picture: https://avatars.dicebear.com/api/identicon/team-a@example.com.svg?background=%23fff&margin=25
+  parent: rhdh
+  children: []
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
@@ -128,8 +296,22 @@ spec:
   profile:
     email: groot@opentlc.com
     picture: https://avatars.dicebear.com/api/avataaars/breanna-davison@example.com.svg?background=%23fff
-    memberOf: []
+    memberOf: [groot]
 
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: drax
+  description: drax group
+spec:
+  type: team
+  profile:
+    # Intentional no displayName for testing
+    email: drax@opentlc.com
+    picture: https://avatars.dicebear.com/api/identicon/team-a@example.com.svg?background=%23fff&margin=25
+  parent: rhdh
+  children: []
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
@@ -139,8 +321,22 @@ spec:
   profile:
     email: drax@opentlc.com
     picture: https://avatars.dicebear.com/api/avataaars/breanna-davison@example.com.svg?background=%23fff
-    memberOf: []
+    memberOf: [drax]
 
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: scarletwitch
+  description: scarletwitch group
+spec:
+  type: team
+  profile:
+    # Intentional no displayName for testing
+    email: scarletwitch@opentlc.com
+    picture: https://avatars.dicebear.com/api/identicon/team-a@example.com.svg?background=%23fff&margin=25
+  parent: rhdh
+  children: []
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
@@ -150,8 +346,22 @@ spec:
   profile:
     email: scarletwitch@opentlc.com
     picture: https://avatars.dicebear.com/api/avataaars/breanna-davison@example.com.svg?background=%23fff
-    memberOf: []
+    memberOf: [scarletwitch]
 
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: vision
+  description: vision group
+spec:
+  type: team
+  profile:
+    # Intentional no displayName for testing
+    email: vision@opentlc.com
+    picture: https://avatars.dicebear.com/api/identicon/team-a@example.com.svg?background=%23fff&margin=25
+  parent: rhdh
+  children: []
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
@@ -161,5 +371,5 @@ spec:
   profile:
     email: vision@opentlc.com
     picture: https://avatars.dicebear.com/api/avataaars/breanna-davison@example.com.svg?background=%23fff
-    memberOf: []
+    memberOf: [vision]
 
