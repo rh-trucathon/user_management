@@ -23,9 +23,9 @@ fs.createReadStream("./userFiles/"+filename)
     var password = row[1]
     var groupList = [12,14,7,10]
    
-    console.log("username ",userName)
+    console.log("username ",userName.toLowerCase())
     console.log("password ",password)
-    gitlabObj.addUser(userName,password,function(data,err){
+    gitlabObj.addUser(userName.toLowerCase(),password,function(data,err){
 
         if (err){
             //console.error("Error Gitlab ",err)
