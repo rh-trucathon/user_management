@@ -31,15 +31,15 @@ function Gitlab() {
         
         };
 
-    console.log(" DATA to OPTIONS ", options)
 
     
         axios.request(options).then(function (res) {
             //console.log(JSON.stringify(res.config))  
-            console.log("Gitlab User Added")
+            console.log("Gitlab User Added",userCSV)
            callback(res,null)
       }).catch(function (error) {
-        console.error(error.response.data);
+        console.error("Gitlab User error",userCSV, " error :", error.response.data)
+
         callback(null,error.response.data)
         return
                        
@@ -65,7 +65,6 @@ function Gitlab() {
         
         };
 
-    console.log(" DATA to group ", options)
 
     
         axios.request(options).then(function (res) {
@@ -73,6 +72,9 @@ function Gitlab() {
             console.log("Gitlab group ",groupId,"Added to user ",userId)
            callback(res,null)
       }).catch(function (error) {
+
+        console.error("Gitlab group error",userId," error :", error.response.data)
+
         console.error(error.response.data);
         callback(null,error.response.data)
         return
@@ -94,7 +96,6 @@ function Gitlab() {
           'content-type': 'application/x-www-form-urlencoded'}        
         };
 
-    console.log(" User delete ", options)
 
     
         axios.request(options).then(function (res) {
@@ -102,7 +103,7 @@ function Gitlab() {
             console.log("Gitlab user deleted",userId)
            callback(res,null)
       }).catch(function (error) {
-        console.error(error.response.data);
+        console.error(" error delete",error.response.data);
         callback(null,error.response.data)
         return
                        

@@ -29,15 +29,13 @@ fs.createReadStream("./userFiles/"+filename)
 
         if (err){
             //console.error("Error Gitlab ",err)
-            console.log("error ",userName)
+            console.log("error user ",userName)
             return
         }
-        console.log("Gitlab User ok ",data)
-        console.log("Gitlab User  ",data.data["id"])
+        console.log("Gitlab User add ",data.data["id"])
         var userId = data.data["id"]
 
         async.each(groupList, function (groupId,callbackEach) {
-            console.log("group to add ", groupId)
             
             gitlabObj.addUserToGroup(userId,groupId,function(){
                 console.log("User Added to group OK -- ",groupId)

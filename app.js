@@ -32,7 +32,7 @@ csvReaderObj.readCSVFile(process.env.CSV_FILE_NAME)
 /*
 var userArray = []
 
-for (let i = 28; i < 45; i++) {
+for (let i = 200; i < 450; i++) {
     userArray.push(i)
   }
 
@@ -40,10 +40,10 @@ gitlabObj.deleteUserArray(userArray,function(res){
     console.log ("done")
 })
 console.log(" array user ",userArray)
-
-
-
 */
+
+
+
 
 // ...
 
